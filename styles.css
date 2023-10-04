@@ -5,22 +5,27 @@
     margin: auto;
 }
 .calculator{
+    background: #212121;
     margin: auto;
     width: 320px;
     border: solid 1px black;
     border-radius: 8px;
 }
-.output input{
+input[type=text]{
+    background: #EEEEEE;
     font-size: 25px;
-    margin: 8px 0px;
+    margin: 15px 0px;
     height: 40px;
     width: 90%;
     border: none;
     text-align: right;
 }
-.buttons input{
+input[type=button]{
     height: 50px;
     width: 70px;
-    margin: 8px 0px;
+    margin-bottom: 4px;
     /* border-radius: 5px; */
+}
+.buttons:nth-last-child(1){
+    margin-bottom: 15px;
 }
